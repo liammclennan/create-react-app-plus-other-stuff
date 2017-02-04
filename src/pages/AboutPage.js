@@ -21,7 +21,8 @@ function aboutPageFactory(store, sideEffects) {
         constructor(props) {
             super(props);
             sideEffects.onLoad()
-                .then(data => store.dispatch({type:'STUFF_FROM_WORLD_BANK',data:data}));
+                .then(data => store.dispatch({type:'STUFF_FROM_WORLD_BANK',data:data}))
+                .catch(err => {throw err});
         }
     }
 }
