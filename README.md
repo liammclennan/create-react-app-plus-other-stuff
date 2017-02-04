@@ -3,7 +3,7 @@ create-react-app-plus-other-stuff
 
 I've extended create-react-app with routing (react-router), redux and bootstrap.
 
-See [pages/README.md] for details on how to add pages. 
+See [pages/README.md](pages/README.md) for details on how to add pages. 
 
 See [pages/AboutPage.test.js] for an example of testing a page component, including mocking an AJAX request. 
 
