@@ -6,7 +6,7 @@ let LoginPage = {
     reducer: function (state = {data:{}}, action) {
         switch (action.type) {
             case 'LOGIN_SUBMITED':
-                console.log(action);
+                alert(JSON.stringify(action));
                 return state;
             default: return state;
         }

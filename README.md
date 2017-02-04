@@ -1,3 +1,22 @@
+create-react-app-plus-other-stuff
+=================
+
+I've extended create-react-app with routing (react-router), redux and bootstrap.
+
+See [pages/README.md] for details on how to add pages. 
+
+See [pages/AboutPage.test.js] for an example of testing a page component, including mocking an AJAX request. 
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
